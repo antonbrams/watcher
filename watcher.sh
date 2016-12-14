@@ -12,7 +12,7 @@ function getTimeStamp {
     ls -Tl * | awk '{print $8}'
 }
 timestamps="$(getTimeStamp)"
-printf "${txt_blue}[watcher] Killroy watching you, what ever you do...${end}\n"
+printf "${txt_blue}[watcher] Killroy is watching you, what ever you do...${end}\n"
 
 # load config as source file
 source "$(pwd)/watcher.config"
